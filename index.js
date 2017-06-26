@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = input => {
+export default (input) => {
 	const buf = new Uint8Array(input);
 
 	if (!(buf && buf.length > 1)) {
